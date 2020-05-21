@@ -35,7 +35,7 @@ export default function App() {
         <Route path="/login">
           <Login />
         </Route>
-        <Route path="/products">
+        <Route exact path="/products">
           <Products />
         </Route>
         <Route
